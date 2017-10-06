@@ -140,18 +140,9 @@ if(isset($_POST["register"]))
               >
             <!--      <div class="alert alert-error">--><?//=$_SESSION['message']?><!--</div>-->
             <input type="text" placeholder="User Name" name="username"  id="username" value="<?php echo isset($_POST["username"]) ? $_POST["username"]:''?>"/>
-
-<!--            --><?php //if(empty($_POST["username"])){
-//                echo '<div class="alert alert-error">'.$username_err.'</div>';
-//            }?>
-            <?php if($bool1===TRUE){
-                echo '<div class="alert alert-error">'.$username_err.'</div>';
-            }?>
-
+            <div class="alert-error"><?= $username_err?></div>
             <input type="text" placeholder="Email" name="email" id="email" />
-            <?php if($bool2===TRUE) {
-                echo '<div class="alert alert-error">'.$email_err.'</div>';
-            }?>
+            <div class="alert-error"><?= $email_err?></div>
 
             <input type="submit" value="Register" name="register" class="btn btn-block btn-primary" />
         </form>
