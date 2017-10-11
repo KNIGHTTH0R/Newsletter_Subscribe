@@ -20,9 +20,9 @@ function validateform() {
 
     // Email Validation
     var email_valid = document.forms["newsform"]["email"].value;
-    var atpos = email_valid.indexOf("@");
-    var dotpos = email_valid.lastIndexOf(".");
-    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=email_valid.length) {
+    var validate_reg = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+    if (!validate_reg.test(email_valid)) {
         alert("Not a valid e-mail address");
         bool2=0;
     }

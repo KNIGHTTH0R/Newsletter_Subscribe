@@ -51,6 +51,7 @@ class formConnection{
 
     // Global Variable
     public $connection;
+
     // We will create a constructor who job is just make connection with the database
     function __construct()
     {
@@ -60,8 +61,18 @@ class formConnection{
         mysqli_select_db($this->connection,"formsignup");
     }
 
-    // function accepting two parameters
 
+
+    function javascriptValidation(){
+        $validateFlag = TRUE;
+        if($validateFlag==TRUE){
+
+            echo '<script src="javascript/formvalidate.js"></script>';
+            die("ok");
+        }
+    }
+
+    // function accepting two parameters
     function insert_table($username,$email){
         $username = mysqli_real_escape_string($this->connection,$username);
         $email = mysqli_real_escape_string($this->connection,$email);
@@ -69,6 +80,8 @@ class formConnection{
         // this function will return the query;
         return $query;
     }
+
+
 }
 
 ?>
@@ -81,8 +94,11 @@ $bool1 = FALSE;
 $bool2 = FALSE;
 $username_err = " ";
 $email_err = " ";
+
 // Create object of the class
 $conn = new formConnection();
+
+
 if(isset($_POST["register"]))
 {
 //    echo '<pre>';
@@ -119,10 +135,11 @@ if(isset($_POST["register"]))
         }
     }
 
-    // When abov conditions are true then insert
+    // When above conditions are true then insert
     if(($bool1=TRUE) && ($bool2==TRUE)){
         $conn ->insert_table($username,$email);
     }
+
 
 }
 ?>
@@ -130,14 +147,13 @@ if(isset($_POST["register"]))
 
 <link href="//db.onlinewebfonts.com/c/a4e256ed67403c6ad5d43937ed48a77b?family=Core+Sans+N+W01+35+Light" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="./css/style.css" type="text/css">
-<script type="text/javascript" src="javascript/formvalidate.js">
 
-</script>
 <div class="body-content">
     <div class="module">
         <h1>Create an account</h1>
         <form class="form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off", name="newsform"
-              >
+              onsubmit="return true">
+
             <!--      <div class="alert alert-error">--><?//=$_SESSION['message']?><!--</div>-->
             <input type="text" placeholder="User Name" name="username"  id="username" value="<?php echo isset($_POST["username"]) ? $_POST["username"]:''?>"/>
             <div class="alert-error"><?= $username_err?></div>
