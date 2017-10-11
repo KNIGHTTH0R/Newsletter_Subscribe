@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a04a33fb-62c0-48b8-a17f-ab3121eda91a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welcome.php" afterPath="$PROJECT_DIR$/welcome.php" />
-    </list>
+    <list default="true" id="a04a33fb-62c0-48b8-a17f-ab3121eda91a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="welcome.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="welcome.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1473">
-              <caret line="119" column="9" lean-forward="false" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+            <state relative-caret-position="283">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding>
                 <marker date="1507690776000" expanded="true" signature="837:852" ph="..." />
                 <marker date="1507690776000" expanded="true" signature="1193:1262" ph="INSERT INTO users... " />
@@ -29,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="output.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/output.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-954">
@@ -57,7 +55,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="15">
               <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding />
             </state>
@@ -263,12 +261,12 @@
       <workItem from="1507401432019" duration="18309000" />
       <workItem from="1507426996032" duration="5620000" />
       <workItem from="1507490475654" duration="7855000" />
-      <workItem from="1507689783908" duration="993000" />
+      <workItem from="1507689783908" duration="1045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59565000" />
+    <option name="totallyTimeSpent" value="59617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="712" extended-state="6" />
@@ -635,18 +633,39 @@
     <entry file="file://$PROJECT_DIR$/server.php" />
     <entry file="file://$PROJECT_DIR$/newsletter.php" />
     <entry file="file://$PROJECT_DIR$/error.php" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1508">
           <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/formvalidate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <marker date="1507690776000" expanded="true" signature="837:852" ph="..." />
+            <marker date="1507690776000" expanded="true" signature="1193:1262" ph="INSERT INTO users... " />
+            <marker date="1507690776000" expanded="true" signature="1193:1263" ph="INSERT INTO users... " />
+            <marker date="1507690776000" expanded="true" signature="1193:1265" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -670,27 +689,6 @@
             <marker date="1507504706000" expanded="true" signature="2790:3053" ph="..." />
             <marker date="1507504706000" expanded="true" signature="2819:3020" ph="..." />
             <marker date="1507504706000" expanded="true" signature="3228:3463" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/formvalidate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1473">
-          <caret line="119" column="9" lean-forward="false" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
-          <folding>
-            <marker date="1507690776000" expanded="true" signature="837:852" ph="..." />
-            <marker date="1507690776000" expanded="true" signature="1193:1262" ph="INSERT INTO users... " />
-            <marker date="1507690776000" expanded="true" signature="1193:1263" ph="INSERT INTO users... " />
-            <marker date="1507690776000" expanded="true" signature="1193:1265" ph="INSERT INTO users... " />
           </folding>
         </state>
       </provider>
